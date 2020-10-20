@@ -67,7 +67,7 @@ puts "Wheels check: " + subaru.wheels.to_s
 puts "Doors check: " + subaru.doors.to_s
 puts "Cylinders check: " + subaru.cylinders.to_s
 puts ""
-puts "Adding wheel to car object using method."
+puts "Deleting wheel using class method."
 subaru.deleteWheels(1)
 puts "Wheels check: " + subaru.wheels.to_s
 puts "Doors check: " + subaru.doors.to_s
